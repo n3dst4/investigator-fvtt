@@ -299,8 +299,8 @@ importers:
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.0.2)(react@19.0.0)
       '@league-of-foundry-developers/foundry-vtt-types':
-        specifier: ^9.280.1
-        version: 9.280.1(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))(@pixi/math@7.4.2)(@pixi/utils@7.4.2)
+        specifier: github:League-of-Foundry-Developers/foundry-vtt-types#main
+        version: https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/c19b02e52c4d25c2fc1bbb95dd5932b3ae08a30c(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))(@pixi/math@7.4.2)(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2)))(@pixi/ticker@7.4.2)(typescript@5.7.2)
       '@lumphammer/investigator-fvtt-types':
         specifier: ^1.13.2
         version: 1.13.2
@@ -965,6 +965,12 @@ packages:
 
   '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/a6ee3bc0ce7637637e616b3ec2b6b2690dde5c49':
     resolution: {tarball: https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/a6ee3bc0ce7637637e616b3ec2b6b2690dde5c49}
+    version: 12.331.3-beta
+    peerDependencies:
+      typescript: ^5.4
+
+  '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/c19b02e52c4d25c2fc1bbb95dd5932b3ae08a30c':
+    resolution: {tarball: https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/c19b02e52c4d25c2fc1bbb95dd5932b3ae08a30c}
     version: 12.331.3-beta
     peerDependencies:
       typescript: ^5.4
@@ -4795,6 +4801,46 @@ snapshots:
       - utf-8-validate
 
   '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/a6ee3bc0ce7637637e616b3ec2b6b2690dde5c49(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))(@pixi/math@7.4.2)(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2)))(@pixi/ticker@7.4.2)(typescript@5.7.2)':
+    dependencies:
+      '@pixi/graphics-smooth': 1.1.1(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))
+      '@pixi/particle-emitter': 5.0.8(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2)))(@pixi/ticker@7.4.2)
+      '@types/earcut': https://codeload.github.com/LukeAbby/earcut-types/tar.gz/93cf2b34224b5eab3f39d7e80be20635d9ac9060
+      '@types/jquery': 3.5.32
+      '@types/showdown': 2.0.6
+      '@types/simple-peer': 9.11.5
+      '@types/youtube': 0.0.50
+      handlebars: 4.7.8
+      pixi.js: 7.4.2
+      postinstall-postinstall: 2.1.0
+      prosemirror-collab: 1.3.1
+      prosemirror-commands: 1.6.2
+      prosemirror-dropcursor: 1.8.1
+      prosemirror-gapcursor: 1.3.2
+      prosemirror-history: 1.4.1
+      prosemirror-inputrules: 1.4.0
+      prosemirror-keymap: 1.2.2
+      prosemirror-model: 1.24.1
+      prosemirror-schema-list: 1.5.0
+      prosemirror-state: 1.4.3
+      prosemirror-tables: 1.6.2
+      prosemirror-transform: 1.10.2
+      prosemirror-view: 1.37.1
+      socket.io-client: 4.8.1
+      tinymce: 6.8.5
+      typescript: 5.7.2
+    transitivePeerDependencies:
+      - '@pixi/constants'
+      - '@pixi/core'
+      - '@pixi/display'
+      - '@pixi/graphics'
+      - '@pixi/math'
+      - '@pixi/sprite'
+      - '@pixi/ticker'
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+
+  '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/c19b02e52c4d25c2fc1bbb95dd5932b3ae08a30c(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))(@pixi/math@7.4.2)(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2)))(@pixi/ticker@7.4.2)(typescript@5.7.2)':
     dependencies:
       '@pixi/graphics-smooth': 1.1.1(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/graphics@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))))
       '@pixi/particle-emitter': 5.0.8(@pixi/constants@7.4.2)(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/sprite@7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2)))(@pixi/ticker@7.4.2)
